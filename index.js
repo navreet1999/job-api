@@ -174,7 +174,6 @@ io.on('connect', (socket) => {
   });
   
 
-app.listen(7000, () => {
+app.listen(process.env.PORT, () => {
     console.log("Server is listening at port 7000");
-    console.log(path.join(__dirname + '/public/index.html'));
 })
