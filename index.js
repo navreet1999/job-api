@@ -101,7 +101,6 @@ app.use(cors());
 app.use(router);
 
 app.get('/', function (req, res) {
-    // res.render(path.join(__dirname + '/public/index.html'))
     res.send('Server is up');
   })
 
